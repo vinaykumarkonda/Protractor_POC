@@ -25,6 +25,7 @@
     "q": "1.0.0"
   },
   "scripts": {
+    "preinstall": "npm install",
     "protractor": "protractor protractor.conf.js",
     "lint": "jshint features/"
   }
